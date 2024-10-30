@@ -8,6 +8,7 @@ const db = new Sequelize({
 })
 
 module.exports = {
-    sequelize,
-    Sequelize
+    db,
+    Sequelize,
+    DataTypes
 };
